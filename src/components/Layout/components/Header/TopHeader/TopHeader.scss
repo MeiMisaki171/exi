@@ -1,0 +1,94 @@
+.topheader-wrapper {
+    position: relative;
+    width: 1440px;
+    height: 48px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.topheader-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 231px;
+
+    position: absolute;
+    width: 859px;
+    height: 24px;
+    right: 136px;
+    top: 12px;
+}
+
+.topheader-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 550px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    .topheader-noti{
+        width: 474px;
+        height: 18px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        
+    }
+
+    .linkto {
+        width: 68px;
+        height: 24px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+
+        text-align: center;
+        text-decoration-line: underline;
+
+        color: var(--white);
+    }
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 5px;
+
+    width: 78px;
+    height: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    .current-lang {
+        width: 49px;
+        height: 21px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .dropdown-menu {
+        padding-left: 4px;
+        width: 14px;
+        height: 14px;
+    }
+}
