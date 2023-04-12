@@ -16,9 +16,8 @@
 .line{
     position: relative;
     width: 100%;
-    height: 0px;
-    
-    border: 0.5px solid #000000;
+    height: 1px;
+    background-color: var(--black);
     opacity: 0.3;
     transform: rotate(180deg);
 }

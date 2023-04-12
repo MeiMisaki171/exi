@@ -20,22 +20,22 @@ const HeaderContainer = () => {
             </Link>
           </div>
           <div className='header-navbar'>
-            <div className='nav-icon-1'>
+            <Link className='nav-icon-1' to='/'>
               Home 
               <div className='underline'></div>
-            </div>
-            <div className='nav-icon-2'>
+            </Link>
+            <Link className='nav-icon-2' to='/contact'>
               Contact
               <div className='underline'></div>
-            </div>
-            <div className='nav-icon-1'>
+            </Link>
+            <Link className='nav-icon-1' to='/about'>
               About
               <div className='underline'></div>
-            </div>
-            <div className='nav-icon-2'>
+            </Link>
+            <Link className='nav-icon-2' to='/signup'>
               Sign Up
-              <div className='underline'></div>
-            </div>
+              <div className='underline' ></div>
+            </Link>
           </div>
       </div>
       <div className='header-items--right'>

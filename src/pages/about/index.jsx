@@ -1,9 +1,11 @@
 import './About.scss'
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
-}
+ return (
+  <div>
+  </div>
+ );
+};
+
 
 export default About
