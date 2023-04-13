@@ -1,4 +1,6 @@
 
+import BestSelling from '../components/BestSelling'
+import Categories from '../components/Categories'
 import Content from '../components/Content'
 import FlashSale from '../components/FlashSale'
 import Slider from '../components/Slider'
@@ -15,8 +17,11 @@ const DefaultLayout = () => {
       <div className='button-container'>
         <button className='button'>View All Products</button>
       </div>
-
-      <div className='line1'></div>
+      <Categories></Categories>
+      <BestSelling></BestSelling>
+      <div className='button-container'>
+        <button className='button'>View All Products</button>
+      </div>
     </body>
   )
 }

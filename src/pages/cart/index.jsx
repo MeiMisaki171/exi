@@ -1,9 +1,12 @@
 
+import Categories from '~/components/Layout/components/Categories'
 import './Cart.scss'
 
 const Cart = () => {
   return (
-    <div></div>
+    <div>
+      <Categories></Categories>
+    </div>
   )
 }
 
