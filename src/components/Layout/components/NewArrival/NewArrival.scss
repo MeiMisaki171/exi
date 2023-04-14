@@ -1,0 +1,36 @@
+
+
+.na-container{
+    position: relative;
+    width: 1170px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    width: 570px;
+    height: 600px;
+    margin-right: 30px;
+    padding: 89px 0 29px 30px;
+}
+
+.item2 {
+    width: 570px;
+    height: 284px;
+}
+
+.item3, .item4 {
+    position: absolute;
+    width: 270px;
+    height: 284px;
+    top: 314px;
+}
+
+.item3 {
+    right: 300px
+}
+
+.item4 {
+    right: 0;
+}

@@ -1,11 +1,11 @@
 
-import Categories from '~/components/Layout/components/Categories'
+import NewArrival from '~/components/Layout/components/NewArrival'
 import './Cart.scss'
 
 const Cart = () => {
   return (
     <div>
-      <Categories></Categories>
+      <NewArrival></NewArrival>
     </div>
   )
 }
